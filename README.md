@@ -22,7 +22,7 @@ Remember that any time you ask users for input, there is a chance they may not e
 
 Your script also needs to prompt the user whether they would like want to see the raw data. If the user answers 'yes,' then the script should print 5 rows of the data at a time, then ask the user if they would like to see 5 more rows of the data. The script should continue prompting and printing the next 5 rows at a time until the user chooses 'no,' they do not want any more raw data to be displayed.
 
-Note that this ~bikeshare.py~ file is simply a template you can use, but you are not required to use it. You can change the functions however you like as long as you have an ending product that meets the project requirements. Changes to the structure of bikeshare.py (e.g., adding and/or deleting helper functions) that you think make the code more efficient or have a better style are encouraged!
+Note that this `bikeshare.py` file is simply a template you can use, but you are not required to use it. You can change the functions however you like as long as you have an ending product that meets the project requirements. Changes to the structure of bikeshare.py (e.g., adding and/or deleting helper functions) that you think make the code more efficient or have a better style are encouraged!
 
 ### Files used
 Include the files used
