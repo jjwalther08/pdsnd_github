@@ -203,6 +203,8 @@ def user_stats(df, city):
     print('-'*40)
     
 def get_raw_data(df):
+
+    pd.set_option("display.max_columns", 200)
     
     rows = 0
     raw_data = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
