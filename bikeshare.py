@@ -6,6 +6,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -87,6 +88,17 @@ def load_data(city, month, day):
     return df
 
 def time_stats(df, month, day, city):
+    """
+    Loads data for the specified city and filters by month and day if applicable.
+
+    Args:
+        (dataframe) df - filtered dataframe with after user entries
+        (str) city - name of the city to analyze
+        (str) month - name of the month to filter by, or "all" to apply no month filter
+        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+    Returns:
+        df - Pandas DataFrame containing timestats for the city, month, and day entered.
+    """
   
     """Displays statistics on the most frequent times of travel."""
     city_message = ('\nCalculating The Most Frequent Times of Travel in the city of {}: \n').format(city)
