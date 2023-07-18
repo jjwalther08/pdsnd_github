@@ -25,8 +25,16 @@ Your script also needs to prompt the user whether they would like want to see th
 Note that this `bikeshare.py` file is simply a template you can use, but you are not required to use it. You can change the functions however you like as long as you have an ending product that meets the project requirements. Changes to the structure of bikeshare.py (e.g., adding and/or deleting helper functions) that you think make the code more efficient or have a better style are encouraged!
 
 ### Files used
-Include the files used
+
+`bikeshare.py` is the main python script used for this project.
+
+The csv files listed below represents the rideshare data collected for the following cities:<br>
+
+`chicago.csv`
+`new_york_city.csv`
+`washington.csv`
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Shoutout to Udacity for the Programming for Data Science using Python course!
 
